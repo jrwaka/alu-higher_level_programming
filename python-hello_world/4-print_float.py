@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 number = 3.1459
-print(f"{number:d} Battery street")
+print(f"Float: {number:.2f}")
