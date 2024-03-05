@@ -122,7 +122,7 @@ def recursive_solve(board, row, queens, solutions):
             solutions = recursive_solve(tmp_board, row + 1,
                                         queens + 1, solutions)
 
-OAOAOA    return (solutions)
+    return (solutions)
 
 
 if __name__ == "__main__":
