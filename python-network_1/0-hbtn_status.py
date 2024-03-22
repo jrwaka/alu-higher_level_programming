@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""A pythonscript that fetches https://intranet.hbtn.io/status using urlib package
+"""A python script that fetches https://intranet.hbtn.io/status using urlib package
 """
 
 
-if __name__ == '__main__':
+if __main__ == '__name__':
     import urllib.request
 
     with urllib.request.urlopen('https://alu-intranet.hbtn.io/status') as res:
