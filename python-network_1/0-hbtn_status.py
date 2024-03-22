@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Python script that fetches https://alu-intranet.hbtn.io/status using urllib package
+"""Python script that fetches https://alu-intranet.hbtn.io/status using urllib package"""
 
 
 if __name__ == '__main__':
