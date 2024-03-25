@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""Defines function that adds 2 integers"""
+"""Defines an integer addition function."""
+
 
 def add_integer(a, b=98):
-    """Returns addition of integer a and b"""
+    """Return the integer addition of a and b.
+
+    Float arguments are typecasted to ints before addition is performed.
 
     Raises:
         TypeError: If either of a or b is a non-integer and non-float.
