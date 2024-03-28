@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 """Represents City class"""
-from relatinship_state import Base
-from sqlalchemy import Column, Integer, String, 
-ForeignKey
+from relationship_state import Base
+from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
 
 class City(Base):
-    """Defines cities"""
+    """
+    Class that defines each city
+    """
     __tablename__ = 'cities'
     id = Column(Integer, unique=True, nullable=False, primary_key=True)
     name = Column(String(128), nullable=False)
