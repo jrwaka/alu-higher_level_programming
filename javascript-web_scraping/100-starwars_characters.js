@@ -1,4 +1,3 @@
-#!/usr/bin/node
 const request = require('request');
 
 if (process.argv.length > 2) {
@@ -41,5 +40,5 @@ if (process.argv.length > 2) {
     }
   });
 } else {
-  console.log('Provide the Movie ID.');
+  console.log('Please provide the Movie ID as an argument.');
 }
